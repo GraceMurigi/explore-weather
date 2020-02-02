@@ -1,0 +1,28 @@
+
+
+.header nav {
+	text-align: right;
+	padding: 15px;
+}
+.header li {
+	list-style-type: none;
+
+}
+.header a {
+	text-decoration: underline;
+	color: #fff; 
+}
+
+.header a:visited {
+	text-decoration: none;
+	color: #eee; 
+}
+
+.header a:hover {
+	text-decoration: underline;
+	color: #fff; 
+}
+
+
+
+

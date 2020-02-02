@@ -1,0 +1,25 @@
+.weekly-cards {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 20px 20px ; 
+	border-radius: 4px; 
+	padding: 15px;  
+	background-color: #203A43; 
+
+}
+
+
+.card {
+	opacity: 0.6; 
+	height: 250px; 
+	width: 250px; 
+	border: 1px solid #eee; 
+	border-radius: 4px; 
+	padding: 20px; 
+	margin-right: 5px; 
+	transition: width 1s; 
+}
+
+.card:hover {
+	width: 350px; 
+}

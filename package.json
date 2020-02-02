@@ -1,0 +1,27 @@
+{
+  "name": "explore-weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": " cd client && npm run start",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "module-alias": "^2.2.2"
+  }, 
+   "_moduleAliases": {
+    "root": ".",
+    "routes": "./server/routes",
+    "server": "./server"
+  }
+}

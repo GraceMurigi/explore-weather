@@ -1,5 +1,5 @@
 #explore-weather tech stack 
-The frontend is built with Reactjs and the backend is built with nodejs + expressjs
+The frontend is built with Reactjs and the backend is built with nodejs + expressjs + dark sky api
 
 # explore-weather setup 
  -navigate to the root directory and run 'yarn install' to install the backend dependancies 

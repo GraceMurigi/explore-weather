@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Title
 Weather App 
 
@@ -21,4 +22,3 @@ In the root folder run *yarn install*
 ```
 navigate to the client folder and run *yarn install *
 ```
-

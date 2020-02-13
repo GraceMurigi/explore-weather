@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project Title
 Weather App 
 
